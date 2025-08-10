@@ -6,7 +6,7 @@ multiplication, division, and other mathematical functions.
 """
 
 
-def add_numbers(a: float, b: float) -> float:
+def add_numbers(first_num: float, second_num: float) -> float:
     """
     Add two numbers together.
     
@@ -23,7 +23,7 @@ def add_numbers(a: float, b: float) -> float:
         >>> add_numbers(2.5, 1.5)
         4.0
     """
-    return a + b
+    return first_num + second_num
 
 
 def subtract_numbers(a: float, b: float) -> float:
@@ -160,7 +160,7 @@ def modulo_numbers(a: float, b: float) -> float:
     return a % b
 
 
-def absolute_value(number: float) -> float:
+def absolute_value(num: float) -> float:
     """
     Calculate the absolute value of a number.
     
@@ -176,7 +176,7 @@ def absolute_value(number: float) -> float:
         >>> absolute_value(3.14)
         3.14
     """
-    return abs(number)
+    return abs(num)
 
 
 def calculate_percentage(part: float, whole: float) -> float:
