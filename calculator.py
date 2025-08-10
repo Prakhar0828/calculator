@@ -6,7 +6,7 @@ multiplication, division, and other mathematical functions.
 """
 
 
-def add_numbers(first_num: float, second_num: float) -> float:
+def add_numbers(a: float, b: float) -> float:
     """
     Add two numbers together.
     
